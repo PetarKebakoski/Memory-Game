@@ -1,0 +1,50 @@
+body {
+  background-image: url("images/background - image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1 {
+  color: #545454;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+h1:hover {
+  color: #ff0000;
+}
+
+div#memory_board {
+  background: #14bdac;
+  border: #999 1px solid;
+  width: 800px;
+  height: 540px;
+  padding: 24px;
+  margin: 0px auto;
+  border-radius: 20px;
+}
+div#memory_board > div {
+  background: url("images/programming language - image.png") no-repeat;
+  background-color: #ebebe0;
+  background-size: 111px;
+  border: #ff0000 1px solid;
+  width: 71px;
+  height: 71px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  font-size: 35px;
+  cursor: pointer;
+  text-align: center;
+  color: #ff0000;
+}
+
+.container_center {
+  color: #545454;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.container_center:hover {
+  color: #ff0000;
+}
